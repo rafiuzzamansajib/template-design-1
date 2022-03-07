@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.3pc;
+    text-transform: none;
+    font-family: "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Icons16", sans-serif;
+    color: #ffffff;
+    box-sizing: inherit;
+    width: 100vw;
+    height: 100%;
+}
+.bp3-navbar {
+    background-color: #30404d;
+    box-shadow: 0 0 0 1px rgb(16 22 26 / 10%), 0 0 0 rgb(16 22 26 / 0%), 0 1px 1px rgb(16 22 26 / 20%);
+    padding: 0 15px;
+    position: relative;
+    z-index: 10;
+}
+.bp3-button.bp3-minimal:hover{
+    background: rgba(108, 118, 129, 0.6);
+}
+.bp3-navbar-group {
+    align-items: center;
+    display: flex;
+}
+.bp3-navbar-group.bp3-align-left {
+    float: left;
+}
+.bp3-button.bp3-minimal {
+    background: none;
+    box-shadow: none;
+    color: inherit;
+}
+.bp3-button {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    justify-content: center;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    text-decoration: none;
+    text-align: left;
+    vertical-align: middle;
+    min-height: 50px;
+    min-width: 50px;
+}
+.bp3-navbar-group.bp3-align-right {
+    float: right;
+}
+.bp3-align-right .bp3-button {
+    text-align: right;
+}
+.bp3-divider {
+    border-bottom: 1px solid rgba(16, 22, 26, 0.15);
+    border-right: 1px solid rgba(16, 22, 26, 0.15);
+    margin: 5px;
+}
+.app-side-bar {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    max-height: 100vh;
+}
+.app-side-bar-panel {
+    display: flex;
+    height: 100% !important;
+    padding: 0px !important;
+    position: relative;
+}
+.secondary-nav {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+.bp3-navbar-group.bp3-align-left {
+    float: left;
+}
+.bp3-navbar-group {
+    align-items: center;
+    display: flex;
+    height: 50px;
+}
+.bp3-button.bp3-align-left, .bp3-align-left .bp3-button {
+    text-align: left;
+}
+.bp3-icon {
+    display: inline-block;
+    color:#ffffff81;
+    flex: 0 0 auto;
+    vertical-align: text-bottom;
+}
+.bp3-button-text{
+    color:#ffffff8e;
+    padding-left: 2px;
+}
+.bp3-button.bp3-minimal.bp3-disabled:hover {
+    background: none;
+    cursor: not-allowed;
+}
+.bp3-navbar-group.bp3-align-right {
+    float: right;
+}
+.sizing-box {
+    position: absolute;
+    bottom: 5px 0px;
+    width: auto;
+    left: 50%;
+    top:91%;
+    transform: translateX(-50%);
+    opacity: 0.8;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.app-side-layout-hover:hover{
+    background-color: #48b0f08f;
+    color: #48aff0;
+}
