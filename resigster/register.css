@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Open+Sans:wght@300;400&display=swap');
+
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+    background-image: url('./Frame\ 57.jpg');
+    
+    font-family: 'Open Sans', sans-serif ,'Montserrat';
+    font-size: 15px;
+}
+span{
+    color: #5d11e9;
+}
+h5{
+    font-size: 15px;
+    margin-top: 15px;
+    color: rgb(161, 161, 161);
+}
+p{
+    color: rgb(161, 161, 161);   
+}
+
+.common-btn{
+    background-color: white;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+.common-btn:last-child{
+    background-color: rgb(231, 231, 231);
+}
+
+input{
+    width: 100%;
+    padding: 2px;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 5px;
+}
+.input-btn{
+    background-color: #3b3ee6;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.fa-facebook{
+    font-size: 20px;
+    color: blue;
+}
+.fa-google {
+    font-size: 20px;
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
